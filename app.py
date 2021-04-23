@@ -22,5 +22,5 @@ with open("covid_brazil.json") as f:
 async def get_brazil():
     return {"brazil": brazil}
 
-if __name__ == '__main__':
-    uvicorn.run(app,host="127.0.0.1",port="8000")
+# if __name__ == '__main__':
+#     uvicorn.run(app,host="127.0.0.1",port="8000")
