@@ -4,7 +4,7 @@ import json
 
 
 # Init
-app = FastAPI(debug=True)
+app = FastAPI()
 
 # Data
 
